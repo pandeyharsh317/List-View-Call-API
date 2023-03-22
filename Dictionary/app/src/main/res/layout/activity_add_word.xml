@@ -1,0 +1,39 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Add word / Meaning"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#00f"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_word"
+        android:hint="Enter Word"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_meaning"
+        android:hint="Enter Meaning"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="add"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
